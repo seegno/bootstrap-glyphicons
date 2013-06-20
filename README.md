@@ -58,4 +58,4 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 ## Copyright and license
 
-Copyright 2013 Mark otto, Inc under [the MIT license](LICENSE).
+Copyright 2013 Mark Otto, Inc under [the MIT license](LICENSE).
