@@ -23,7 +23,8 @@ h2 {
 .jumbotron {
   position: relative;
   font-size: 16px;
-  color: #e6aaa8;
+  color: #fff;
+  color: rgba(255,255,255,.75);
   text-align: center;
   background-color: #b94a48;
   border-radius: 0;
@@ -39,18 +40,16 @@ h2 {
   font-size: 40px;
   line-height: 1;
 }
-.jumbotron a {
-  color: #fff;
-}
 .btn-outline {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 18px 24px;
   font-size: inherit;
-  font-weight: 300;
+  font-weight: 500;
   color: #fff; /* redeclare to override the `.jumbotron a` */
   background-color: transparent;
-  border-color: #e6aaa8;
+  border-color: #fff;
+  border-color: rgba(255,255,255,.5);
   transition: all .1s ease-in-out;
 }
 .btn-outline:hover,
@@ -71,6 +70,32 @@ h2 {
   height: 30px;
   background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.1));
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.1));
+}
+
+.jumbotron p a,
+.jumbotron-links a {
+  font-weight: 500;
+  color: #fff;
+  transition: all .1s ease-in-out;
+}
+.jumbotron p a:hover,
+.jumbotron-links a:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,.55);
+}
+
+/* Textual links */
+.jumbotron-links {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+.jumbotron-links li {
+  display: inline;
+}
+.jumbotron-links li + li {
+  margin-left: 20px;
 }
 
 @media (min-width: 768px) {
@@ -129,7 +154,6 @@ h2 {
 
 .footer {
   padding: 50px 30px;
-  font-size: 12px;
   color: #777;
   text-align: center;
   border-top: 1px solid #eee;
