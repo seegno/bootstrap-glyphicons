@@ -1,24 +1,24 @@
 # Glyphicons for Bootstrap
 
-The official Bootstrap icon font, featuring 160 glyphs from [Glyphicons](http://glyphicons.com). Comes ready for use in any Bootstrap project with support for all modern browsers, including IE8+.
+The official Bootstrap icon font, featuring 160 glyphs from [Glyphicons](http://glyphicons.com), ready for use in any Bootstrap project. Includes support for IE8+.
 
 To get started, check out [http://glyphicons.getbootstrap.com](http://glyphicons.getbootstrap.com)!
 
 
 
-## Bugs and feature requests
+### Bugs and feature requests
 
 Have a bug or a feature request? [Please open a new issue](https://github.com/twitter/bootstrap/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas/).
 
 
 
-## Contributing
+### Contributing
 
 Please read through our guidelines for contributing to Bootstrap. Included are directions for opening issues, coding standards, and notes on development. All HTML and CSS should conform to the [Code Guide](http://github.com/mdo/code-guide), maintained by [Mark Otto](http://github.com/mdo).
 
 
 
-## Community
+### Community
 
 Keep track of development and community news.
 
@@ -29,7 +29,7 @@ Keep track of development and community news.
 
 
 
-## Versioning
+### Versioning
 
 For transparency and insight into our release cycle, and for striving to maintain backward compatibility, bootstrap-glyphicons will be maintained under the Semantic Versioning guidelines as much as possible.
 
@@ -47,7 +47,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 
 
-## Authors
+### Authors
 
 **Mark Otto**
 
@@ -56,6 +56,6 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 
 
-## Copyright and license
+### Copyright and license
 
 Copyright 2013 Mark Otto, Inc under [the MIT license](LICENSE).
